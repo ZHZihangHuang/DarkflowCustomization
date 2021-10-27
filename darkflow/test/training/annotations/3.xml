@@ -1,0 +1,21 @@
+<annotation>
+	<filename>frame0004.jpg</filename>
+    <size>
+        <width>1024</width>
+        <height>544</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>person</name>
+        <pose>Left</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>451</xmin>
+            <ymin>130</ymin>
+            <xmax>586</xmax>
+            <ymax>200</ymax>
+        </bndbox>
+    </object>
+</annotation>

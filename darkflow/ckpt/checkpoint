@@ -1,0 +1,2 @@
+model_checkpoint_path: "tiny-yolov1-1000"
+all_model_checkpoint_paths: "tiny-yolov1-1000"

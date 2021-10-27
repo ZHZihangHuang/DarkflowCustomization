@@ -1,0 +1,6 @@
+run pre train model
+python flow --imgdir sample_img/ --model cfg/v1.1/tiny-yolov1.cfg --load tiny-yolov1.weights
+train dataset
+python flow --model cfg/v1.1/tiny-yolov1.cfg --load tiny-yolov1.weights --train --dataset test/training/images --annotation test/training/annotations --savepb
+train dataset set epoch
+python flow --model cfg/v1.1/tiny-yolov1.cfg --load tiny-yolov1.weights --train --dataset test/training/images --annotation test/training/annotations --epoch 2 --savepb
